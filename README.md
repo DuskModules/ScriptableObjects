@@ -15,6 +15,9 @@ You can simply download and import the **ScriptableObjects.unitypackage** into y
 
 Or you can go to the ScriptableObjects Asset Store page and download it from there. (TODO: Add AssetStore page)
 
+### Dependency!
+ScriptableObjects requires the UtilityCollection module in order to compile! Find it here: https://github.com/DuskModules/UtilityCollection
+
 ### Github Submodule
 You can setup a submodule in your repository, making it easier to stay updated with the latest version.
 

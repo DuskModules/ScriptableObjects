@@ -1,5 +1,4 @@
-﻿#if UNITY_EDITOR
-using UnityEditor;
+﻿using UnityEditor;
 using UnityEngine;
 
 namespace DuskModules.ScriptableObjects.DuskEditor {
@@ -25,4 +24,3 @@ namespace DuskModules.ScriptableObjects.DuskEditor {
     }
   }
 }
-#endif

@@ -9,8 +9,8 @@ namespace DuskModules.ScriptableObjects {
   [CreateAssetMenu(menuName = "DuskModules/GameEvent")]
   public class GameEvent : ScriptableObject {
 
-    /// <summary> Action to be called and hooked into </summary>
-    public event Action onEventTrigger = delegate { };
+		/// <summary> Action to be called and hooked into </summary>
+		public event Action onEventTrigger;
 
     /// <summary> Registers the given callback to the game event </summary>
     /// <param name="callback"> What method to call upon fire </param>
@@ -25,7 +25,7 @@ namespace DuskModules.ScriptableObjects {
 
     /// <summary> Called when event should fire. </summary>
     public void FireEvent() {
-      onEventTrigger();
+      onEventTrigger?.Invoke();
     }
   }
 }
